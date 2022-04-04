@@ -28,8 +28,8 @@ const Home = () => {
                 {
                     userReviews.slice(0, 3).map(userReview => <div className="singleUser">
                         <h3>{userReview.name}</h3>
-                        <h4>Review: {userReview.review}</h4>
-                        <h4>Rating: {userReview.rating}</h4>
+                        <p><b>Review:</b> {userReview.review}</p>
+                        <p><b>Rating:</b> {userReview.rating}</p>
                         <img src={userReview.img} alt="" />
                     </div>)
                 }
