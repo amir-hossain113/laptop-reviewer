@@ -1,0 +1,59 @@
+.both-side{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 30px;
+    margin-bottom: 80px;
+}
+.left-side{
+    width: 50%;
+    text-align: left;
+    text-align: justify;
+}
+.right-side{
+    width: 30%;
+}
+.right-side img{
+    width: 450px;
+    margin-top: 10px;
+}
+.liveDemoBtn{
+    border: none;
+    background-color: rgb(121, 231, 231);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.liveDemoBtn:hover{
+    background-color:chartreuse;
+    color: white;
+}
+.mac-book{
+    color:darkorange;
+}
+.user-reviews{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 30px;
+}
+.user-reviews img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.singleUser{
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+.allReviewsBtn{
+    border: none;
+    padding: 20px 30px;
+    background-color:rgb(15, 105, 231);
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.allReviewsBtnLink{
+    text-decoration: none;
+    color: white;
+}

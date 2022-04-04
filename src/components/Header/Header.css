@@ -2,4 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color: #00786c;
+    padding: 20px;
+    font-size: 19px;
 }

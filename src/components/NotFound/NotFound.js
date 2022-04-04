@@ -1,10 +1,11 @@
 import React from 'react';
 import './NotFound.css';
+import img from '../../images/error.webp';
 
 const NotFound = () => {
     return (
-        <div>
-            
+        <div className="error-page">
+            <img src={img} alt="" />
         </div>
     );
 };
