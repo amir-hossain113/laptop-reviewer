@@ -5,15 +5,15 @@
     margin-bottom: 80px;
     gap: 40px;
 }
-.left-side{
+.right-side{
     width: 50%;
     text-align: left;
     text-align: justify;
 }
-.right-side{
+.left-side{
     width: 30%;
 }
-.right-side img{
+.left-side img{
     width: 450px;
     margin-top: 10px;
 }
@@ -67,3 +67,13 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .both-side{
+        display: block;
+    }
+    .right-side{
+        width: 100%;
+    }
+  }

@@ -11,10 +11,10 @@ const Home = () => {
     return (
         <div>
             <div className="both-side">
-                <div className="right-side">
+                <div className="left-side">
                     <img src={img} alt="" />
                 </div>
-                <div className="left-side">
+                <div className="right-side">
                     <h1>Latest <span className="mac-book">Mac Book Pro</span> <br /> Your Next Laptop</h1>
                     <p>
                     In the tech industry, Apple is a renowned name that makes the top rates simplified laptops for customers. Apple makes their laptops eye-catching and unique by providing almost every component. The world-famous Apple's MacBook cannot be compared with anyone as Apple uses its innovative technology and display panels to give the most accurate color contrast. MacBook is now even added a new feature that still many laptops do not have which is the Touch Bar. This Touch bar allows the user to keeps everything in order and works properly. Smart technologies are offering the best deals on Apple MacBook.

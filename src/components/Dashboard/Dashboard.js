@@ -46,7 +46,7 @@ const Dashboard = () => {
     return(
        <div className="charts">
             <div className="">
-                <LineChart width={600} height={400} data={data}>
+                <LineChart width={600} height={400}  data={data}>
                     <Line dataKey={'sell'} stroke="#e5ad06"></Line>
                     <XAxis dataKey={'month'}></XAxis>
                     <Tooltip></Tooltip>
