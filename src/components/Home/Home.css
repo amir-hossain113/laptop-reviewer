@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     margin: 60px 30px;
     margin-bottom: 80px;
+    gap: 40px;
 }
 .left-side{
     width: 50%;
@@ -18,12 +19,16 @@
 }
 .liveDemoBtn{
     border: none;
+}
+.liveDemoBtnLink{
+    border: none;
     background-color: rgb(121, 231, 231);
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
-.liveDemoBtn:hover{
+.liveDemoBtnLink:hover{
     background-color:chartreuse;
     color: white;
 }
@@ -41,19 +46,24 @@
     border-radius: 100%;
 }
 .singleUser{
-    border: 1px solid gray;
+    border: 1px solid goldenrod;
     margin-bottom: 30px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color:#eeeae9;
 }
 .allReviewsBtn{
     border: none;
-    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+.allReviewsBtnLink{
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 20px 40px;
     background-color:rgb(15, 105, 231);
     margin-bottom: 40px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
-}
-.allReviewsBtnLink{
-    text-decoration: none;
-    color: white;
 }

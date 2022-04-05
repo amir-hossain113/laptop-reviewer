@@ -8,10 +8,10 @@ const Reviews = () => {
         <div className="user-reviews">
             {
                 userReviews.map(userReview => <div className="single-user">
+                    <img src={userReview.img} alt="" />
                     <h3>{userReview.name}</h3>
                     <p><b>Review:</b> {userReview.review}</p>
                     <p><b>Rating:</b> {userReview.rating}</p>
-                    <img src={userReview.img} alt="" />
                 </div>)
             }
             
